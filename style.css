@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: ;
 }
 
 a {
@@ -67,17 +68,20 @@ main {
 }
 
 @media screen and (max-width:768px) {
+
     main {
-        width: 90%;
-        margin: 50px 0;
+        width: 100%;
     }
     .step-box {
+        width: 90%;
         margin: 0 auto;
         float: none;
         margin-bottom: 20px;
     }
+    .step-img1,.step-img2,.step-img3 {
+        width: 100%;
+    }
     .step-box:last-child {
         margin: 0 auto;
-        margin-bottom: 0;
     }
 }
